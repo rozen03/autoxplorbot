@@ -69,7 +69,6 @@ def main():
 		loguear("Starting AutoXPLORBot")
 		# Telegram Bot Authorization Token
 		updater = Updater(token=token)
-		print("exodia")
 		dispatcher = updater.dispatcher
 		j = updater.job_queue
 		start_handler = CommandHandler('start', start)
